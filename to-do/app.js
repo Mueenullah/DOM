@@ -21,8 +21,8 @@ function onclick1() {
   ul.remove();
 }
 
-document.querySelector(".fa-remove").addEventListener("click" ,function () {
-  const remove = document.querySelector("li");
-  remove.remove('input.value');
+// document.querySelector(".fa-remove").addEventListener("click" ,function () {
+//   const remove = document.querySelector("li");
+//   remove.remove('input.value');
   
-} )
+// } )
