@@ -35,11 +35,11 @@ document.querySelector('.add-task').addEventListener("click",function (e) {
 
 })
 
-// document.querySelector(".clear-tasks").addEventListener("click", onclick1);
-// function onclick1() {
-//   const ul = document.querySelector("ul");
-//   ul.remove();
-// }
+document.querySelector(".clear-tasks").addEventListener("click", onclick1);
+function onclick1() {
+  const ul = document.querySelector("ul");
+  ul.remove();
+}
 
 // document.querySelector(".fa-remove").addEventListener("click" ,function () {
 //   const remove = document.querySelector("li");
@@ -55,17 +55,17 @@ function remove(e) {
 }
 
 
-document.body.addEventListener("click",cleartask);
-function cleartask(e) {
-  if (e.target.classList.contains("clear-tasks")) {
-    let list = e.target.previousElementSibling.childern;
-    let i = 0;
-    while (i<list.lenght) {
-      e.target.previousElementSibling.childern[i].remove();
+// document.body.addEventListener("click",cleartask);
+// function cleartask(e) {
+//   if (e.target.classList.contains("clear-tasks")) {
+//     let list = e.target.previousElementSibling.childern;
+//     let i = 0;
+//     while (i<list.lenght) {
+//       e.target.previousElementSibling.childern[i].remove();
       
-    }
-  }
-}
+//     }
+//   }
+// }
 // ulElem.removeChild(ulElem.childNodes[i]
 // document.body.addEventListener('click', function (e) {
 //   if (e.target.classList.contains("fa-remove")) {
@@ -75,10 +75,12 @@ function cleartask(e) {
 
 
 // document.body.addEventListener('click',function (e) {
-//   if (e.target.className === 'clear-tasks') {
-//     e.target.previousElementSibling.contains.remove();
+//   if ((e.target.className = "clear-tasks")) {
+//     alert("ok");
+//     // let clear = document.querySelector(".collection");
+//     // remove.innerHTML = null;
 //   } 
-// }
+// });
 
 
 // document.querySelector(".one").addEventListener('click' ,function () 
