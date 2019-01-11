@@ -1,0 +1,23 @@
+.box-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.one{
+  border-radius: 5px;
+  padding: 4rem 6rem;
+  text-align: center;
+  background: rgb(136, 99, 180);
+  color: #fff;
+}
+.two{
+  border-radius: 5px;
+  padding: 4rem 6rem;
+  text-align: center;
+  background: rgb(104, 15, 212);
+}
+.three{
+  border-radius: 5px;
+  padding: 4rem 6rem;
+  text-align: center;
+  background: rgb(207, 29, 177);
+}
